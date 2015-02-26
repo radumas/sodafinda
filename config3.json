@@ -23,7 +23,7 @@
     "owner"
   ],
   "list": [
-    "permitnumber",
+    "owner",
     "address"
   ],
   "search": {
@@ -31,17 +31,9 @@
     "full_text": {
       "keys": [
         "address",
-        "worktype",
         "permittypedescr",
         "owner",
-        "applicant",
         "occupancytype"]
-    }
-  },
-  "facets": {
-    "worktype": {
-      "title": "Type of Permit",
-      "type": "list"
     }
   },
   "analytics": {
