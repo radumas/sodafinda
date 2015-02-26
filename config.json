@@ -34,6 +34,10 @@
         "occupancytype"]
     }
   },
+    "list": [
+    "owner",
+    "address"
+  ],
   "facets": {
     "worktype": {
       "title": "Type of Permit",
