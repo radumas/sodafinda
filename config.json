@@ -22,14 +22,14 @@
     "permittypedescr"
   ],
     "list": [
-    "applicant",
+    "owner",
     "address"
   ],
   "search": {
     "geosearch": true
   },
   "facets": {
-    "worktype": {
+    "permittypedescr": {
       "title": "Type of Permit",
       "type": "list"
     }
