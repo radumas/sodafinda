@@ -1,7 +1,7 @@
 {
   "project": {
     "name": "Approved Building Permits in Roxbury",
-    "description": "<p>\"find-a\" app using City of Boston data on building permits.</p>",
+    "description": "<p>Finda app using City of Boston data on building permits.</p>",
     "contact": "Please send feedback, ideas, and bug reports to our <a href=\"https://github.com/radumas/finda/issues\" target=\"_blank\">Github</a> page."
   },
   "map": {
@@ -18,9 +18,9 @@
     "applicant",
     "permitnumber",
     "address",
-"worktype",
-        "permittypedescr",
-        "owner"
+    "worktype",
+    "permittypedescr",
+    "owner"
   ],
   "list": [
     "permitnumber",
@@ -42,10 +42,6 @@
     "worktype": {
       "title": "Type of Permit",
       "type": "list"
-    },
-    "status": {
-      "title": "Permit Status",
-      "type": "single"
     }
   },
   "analytics": {
