@@ -19,11 +19,10 @@
     "permitnumber",
     "address",
     "worktype",
-    "permittypedescr",
-    "owner"
+    "permittypedescr"
   ],
     "list": [
-    "owner",
+    "applicant",
     "address"
   ],
   "search": {
