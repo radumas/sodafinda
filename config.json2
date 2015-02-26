@@ -1,0 +1,55 @@
+{
+  "project": {
+    "name": "Approved Building Permits in Roxbury",
+    "description": "<p>Finda app using City of Boston data on building permits.</p>",
+    "contact": "Please send feedback, ideas, and bug reports to our <a href=\"https://github.com/radumas/finda/issues\" target=\"_blank\">Github</a> page."
+  },
+  "map": {
+    "preview_attribute": "applicant",
+    "center":[42.3725, -71.1266],
+    "zoom":13,
+    "maxZoom":16,
+    "maxBounds":[
+      [39.2, -78.0],
+      [44.5, -65.0]
+    ]
+  },
+  "properties": [
+    "applicant",
+    "permitnumber",
+    "address",
+    "worktype",
+    "permittypedescr",
+    "owner"
+  ],
+  "list": [
+    "permitnumber",
+    "address"
+  ],
+  "search": {
+    "geosearch": true,
+    "full_text": {
+      "keys": [
+        "address",
+        "worktype",
+        "permittypedescr",
+        "owner",
+        "applicant",
+        "occupancytype"]
+    }
+  },
+  "facets": {
+    "worktype": {
+      "title": "Type of Permit",
+      "type": "list"
+    }
+  },
+  "analytics": {
+    "enabled": true,
+    "private": false,
+    "google_tracker": null,
+    "hostname": "auto",
+    "detail_enabled": true
+  },
+  "geojson_source": "data.geojson"
+}
