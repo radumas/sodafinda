@@ -22,6 +22,10 @@
     "permittypedescr",
     "owner"
   ],
+    "list": [
+    "owner",
+    "address"
+  ],
   "search": {
     "geosearch": true,
     "full_text": {
@@ -34,10 +38,6 @@
         "occupancytype"]
     }
   },
-    "list": [
-    "owner",
-    "address"
-  ],
   "facets": {
     "worktype": {
       "title": "Type of Permit",
