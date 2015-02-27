@@ -5,7 +5,7 @@
     "contact": "Please send feedback, ideas, and bug reports to our <a href=\"https://github.com/radumas/finda/issues\" target=\"_blank\">Github</a> page."
   },
   "map": {
-    "preview_attribute": "applicant",
+    "preview_attribute": "owner",
     "center":[42.324114, -71.082759],
     "zoom":15,
     "maxZoom":16,
@@ -15,6 +15,7 @@
     ]
   },
   "properties": [
+    "owner",
     "applicant",
     "permitnumber",
     "address",
