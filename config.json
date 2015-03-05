@@ -17,11 +17,14 @@
   "properties": [
    {"name": "owner", "title": "Owner"},
     {"name":"applicant", "title": "Applicant"},
+    ,"address",
     {"name":"permitnumber", "title": "Permit Number"},
-    {"name":"address", "title":"Address"},
-    
-    {"name":"worktype", "title":"Work Type"},
-    {"name":"permittypedescr", "title":"Permit Type"}
+    {"name":"issued_date", "title":"Permit valid"},
+    "expiration_date",
+    {"name":"permittypedescr", "title":"Permit Type"},
+    "description",
+    {"name":"declared_valuation" ,"title":"Declared Valuation" },
+    {"name": "sq_feet","title": "Square Footage"}
   ],
     "list": [
     "owner",
