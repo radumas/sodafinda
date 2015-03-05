@@ -15,12 +15,12 @@
     ]
   },
   "properties": [
-    "owner",
-    "applicant",
-    "permitnumber",
+   {"name": "owner", "title": "Owner"},
+    {"name":"applicant", "title": "Applicant"},
+    {"name":"permitnumber", "title": "Permit Number"},
     "address",
-    "worktype",
-    "permittypedescr"
+    {"name":"worktype", "title":"Work Type"},
+    {"name":"permittypedescr", "title":"Permit Type"}
   ],
     "list": [
     "owner",
@@ -33,6 +33,10 @@
     "permittypedescr": {
       "title": "Type of Permit",
       "type": "list"
+    }
+    ,"worktype":{
+      "title": "Type of Work",
+      "type":"list"
     }
   },
   "analytics": {
