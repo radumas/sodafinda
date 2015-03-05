@@ -17,7 +17,7 @@
   "properties": [
    {"name": "owner", "title": "Owner"},
     {"name":"applicant", "title": "Applicant"},
-    ,"address",
+    "address",
     {"name":"permitnumber", "title": "Permit Number"},
     {"name":"issued_date", "title":"Permit valid"},
     "expiration_date",
