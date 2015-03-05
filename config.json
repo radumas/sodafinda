@@ -18,7 +18,8 @@
    {"name": "owner", "title": "Owner"},
     {"name":"applicant", "title": "Applicant"},
     {"name":"permitnumber", "title": "Permit Number"},
-    "address",
+    {"name":"address", "title":"Address"},
+    
     {"name":"worktype", "title":"Work Type"},
     {"name":"permittypedescr", "title":"Permit Type"}
   ],
