@@ -2,7 +2,17 @@ define(function(require, exports, module) {
   'use strict';
   var flight = require('flight');
   var $ = require('jquery');
-  var GeoJSON = require(['../../lib/geojson'], function(){
+  var requirejs = require('requirejs');
+
+
+  requirejs.config({
+      //Pass the top-level main.js/index.js require
+      //function to requirejs so that node modules
+      //are loaded relative to the top-level JS file.
+      nodeRequire: require
+  });
+
+  var GeoJSON = require([geojson], function(){
     var data1 = [
     { name: 'Location A', category: 'Store', street: 'Market', lat: 39.984, lng: -75.343 },
     { name: 'Location B', category: 'House', street: 'Broad', lat: 39.284, lng: -75.833 },
