@@ -9,7 +9,8 @@ require.config({
     'handlebars': '../lib/handlebars',
     'lodash': '../lib/lodash.min',
     'flight': '../lib/flight.min',
-    'fuse': '../lib/fuse.min'
+    'fuse': '../lib/fuse.min'//,
+    //'geojson' : '../node_modules/geojson'
   },
   shim: {
     'handlebars': {
@@ -25,6 +26,9 @@ require.config({
     leaflet: {
       exports: 'L'
     },
+//      'geojson':{
+//          exports: 'geojson'
+//     },
     'L.Control.Locate': ['leaflet'],
     'leaflet.markercluster': ['leaflet']
   }
