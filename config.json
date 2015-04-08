@@ -50,5 +50,6 @@
     "hostname": "auto",
     "detail_enabled": true
   },
+  "data_type": "soql",
   "geojson_source": "https://data.cityofboston.gov/resource/msk6-43c6.json?$select=owner,address,permitnumber, worktype, permittypedescr, description, applicant, declared_valuation, issued_date, expiration_date, sq_feet, location &$where=city = 'Roxbury' AND owner IS NOT NULL AND status = 'OPEN' " 
 }
